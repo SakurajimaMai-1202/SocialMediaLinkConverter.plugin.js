@@ -6,4 +6,5 @@ Converts X/twitter.com, tiktok, instagram, bsky, reddit, threads ,pixiv links to
 
 https://github.com/RoyRiv3r/TwitterX.plugin.js/assets/41067116/91b3a0df-b5c9-40d6-8c69-d2ed811359e1
 
-![image](https://github.com/RoyRiv3r/SocialMediaLinkConverter.plugin.js/assets/41067116/243f59c0-0fc1-4449-98cd-7fdd49eb26c7)
+![image](https://github.com/SakurajimaMai-1202/SocialMediaLinkConverter.plugin.js/assets/56517823/5349b24a-430b-4143-b342-3180ca4a7232)
+
