@@ -62,9 +62,9 @@ class SocialMediaLinkConverter {
         replacement: "https://www.rxddit.com/",
       },
       {
-  id: "convertPixiv",
-  regex: /https:\/\/www\.pixiv\.net\/artworks\/(\d+)/,
-  replacement: "https://www.phixiv.net/artworks/$1",
+       id: "convertPixiv",
+       regex: /https:\/\/www\.pixiv\.net\/artworks\/(\d+)/,
+       replacement: "https://www.phixiv.net/artworks/$1",
 },
 
     ];
