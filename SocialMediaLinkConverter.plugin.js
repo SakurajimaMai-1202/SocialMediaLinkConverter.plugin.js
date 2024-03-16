@@ -5,6 +5,16 @@
  * @donate https://ko-fi.com/royriver
  * @source https://github.com/RoyRiv3r/SocialMediaLinkConverter.plugin.js
  * @updateURL https://raw.githubusercontent.com/RoyRiv3r/SocialMediaLinkConverter.plugin.js/main/SocialMediaLinkConverter.plugin.js
+ * @version 0.0.7
+ */
+
+/**
+ * @name SocialMediaLinkConverter
+ * @author Nears
+ * @description Changes Twitter, TikTok, Bsky, Threads, Reddit and Instagram links to their respective modified formats for proper embedding when shared on Discord.
+ * @donate https://ko-fi.com/royriver
+ * @source https://github.com/RoyRiv3r/SocialMediaLinkConverter.plugin.js
+ * @updateURL https://raw.githubusercontent.com/RoyRiv3r/SocialMediaLinkConverter.plugin.js/main/SocialMediaLinkConverter.plugin.js
  * @version 0.0.8
  */
 
@@ -17,6 +27,7 @@ class SocialMediaLinkConverter {
       convertBsky: true,
       convertThreads: true,
       convertReddit: true,
+      convertPixiv: true,
     };
 
     this.conversionRules = [
@@ -50,6 +61,12 @@ class SocialMediaLinkConverter {
         regex: /https:\/\/(www\.|new\.)?reddit\.com\//g,
         replacement: "https://www.rxddit.com/",
       },
+      {
+  id: "convertPixiv",
+  regex: /https:\/\/www\.pixiv\.net\/artworks\/(\d+)/,
+  replacement: "https://www.phixiv.net/artworks/$1",
+},
+
     ];
 
     this.defaultConfig = this.conversionRules.map((rule) => ({
