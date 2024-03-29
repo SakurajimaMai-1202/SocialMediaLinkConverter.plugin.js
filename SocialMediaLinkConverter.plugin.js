@@ -4,8 +4,8 @@
  * @description Changes Twitter, TikTok, Bsky, Threads, Reddit and Instagram pixiv links to their respective modified formats for proper embedding when shared on Discord.
  * @donate https://ko-fi.com/royriver
  * @source https://github.com/SakurajimaMai-1202/SocialMediaLinkConverter.plugin.js
- * @updateURL 
- * @version 0.0.7
+ * @updateURL  https://raw.githubusercontent.com/SakurajimaMai-1202/SocialMediaLinkConverter.plugin.js/main/SocialMediaLinkConverter.plugin.js
+ * @version 0.0.8
  */
 
 /**
