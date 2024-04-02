@@ -5,7 +5,7 @@
  * @donate https://ko-fi.com/royriver
  * @source https://github.com/SakurajimaMai-1202/SocialMediaLinkConverter.plugin.js
  * @updateURL  https://raw.githubusercontent.com/SakurajimaMai-1202/SocialMediaLinkConverter.plugin.js/main/SocialMediaLinkConverter.plugin.js
- * @version 0.0.8
+ * @version 0.0.9
  */
 
 /**
@@ -15,7 +15,7 @@
  * @donate https://ko-fi.com/royriver
  * @source https://github.com/SakurajimaMai-1202/SocialMediaLinkConverter.plugin.js
  * @updateURL https://raw.githubusercontent.com/SakurajimaMai-1202/SocialMediaLinkConverter.plugin.js/main/SocialMediaLinkConverter.plugin.js
- * @version 0.0.8
+ * @version 0.0.9
  */
 
 class SocialMediaLinkConverter {
@@ -65,7 +65,17 @@ class SocialMediaLinkConverter {
        id: "convertPixiv",
        regex: /https:\/\/www\.pixiv\.net\/artworks\/(\d+)/,
        replacement: "https://www.phixiv.net/artworks/$1",
-},
+     },
+     {
+      id: "convertTikTokVT",
+      regex: /https:\/\/vt\.tiktok\.com\//g,
+      replacement: "https://vt.tnktok.com/",
+     },
+     {
+      id: "convertTikTokVM",
+      regex: /https:\/\/vm\.tiktok\.com\//g,
+      replacement: "https://vm.tnktok.com/",
+     },
 
     ];
 
