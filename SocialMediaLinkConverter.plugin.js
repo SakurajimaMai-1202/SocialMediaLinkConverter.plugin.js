@@ -1,5 +1,6 @@
 /**
- * @name SocialMediaLinkConverter
+ * @name SocialMediaLinkConverterfork
+ * @forked from RoyRiv3r/SocialMediaLinkConverter.plugin.js
  * @author SakurajimaMai-1202
  * @description Changes Twitter, TikTok, Bsky, Threads, Reddit and Instagram pixiv links to their respective modified formats for proper embedding when shared on Discord.
  * @donate https://ko-fi.com/royriver
@@ -39,7 +40,7 @@ class SocialMediaLinkConverter {
       {
         id: "convertTikTok",
         regex: /https:\/\/www\.tiktok\.com\//g,
-        replacement: "https://www.vxtiktok.com/",
+        replacement: "https://www.tnktok.com/",
       },
       {
         id: "convertInstagram",
