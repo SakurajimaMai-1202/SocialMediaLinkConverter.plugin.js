@@ -1,5 +1,5 @@
 /**
- * @name SocialMediaLinkConverterfork.plugin.js
+ * @name SocialMediaLinkConverterfork
  * @forked from RoyRiv3r/SocialMediaLinkConverter.plugin.js
  * @author SakurajimaMai-1202
  * @description Changes Twitter, TikTok, Bsky, Threads, Reddit ,twitch and Instagram pixiv links to their respective modified formats for proper embedding when shared on Discord.
@@ -9,16 +9,16 @@
  */
 
 /**
- * @name SocialMediaLinkConverterfork.plugin.js
+ * @name SocialMediaLinkConverterfork
  * @author SakurajimaMai-1202
  * @description Changes Twitter, TikTok, Bsky, Threads, Reddit and Instagram pixiv links to their respective modified formats for proper embedding when shared on Discord.
  * @donate https://ko-fi.com/royriver
  * @source https://github.com/SakurajimaMai-1202/SocialMediaLinkConverter.plugin.js
  * @updateURL https://raw.githubusercontent.com/SakurajimaMai-1202/SocialMediaLinkConverter.plugin.js/main/SocialMediaLinkConverter.plugin.js
- * @version 0.10.0
+ * @version 0.0.9
  */
 
-class SocialMediaLinkConverter {
+class SocialMediaLinkConverterfork {
   constructor() {
     this.settings = {
       convertTwitter: true,
@@ -206,5 +206,3 @@ class SocialMediaLinkConverter {
     return toggleContainer;
   }
 }
-
-module.exports = SocialMediaLinkConverterfork;
