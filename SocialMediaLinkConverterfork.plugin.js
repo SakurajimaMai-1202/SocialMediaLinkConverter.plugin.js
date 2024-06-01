@@ -15,7 +15,7 @@
  * @donate https://ko-fi.com/royriver
  * @source https://github.com/SakurajimaMai-1202/SocialMediaLinkConverter.plugin.js
  * @updateURL https://raw.githubusercontent.com/SakurajimaMai-1202/SocialMediaLinkConverter.plugin.js/main/SocialMediaLinkConverter.plugin.js
- * @version 0.0.9
+ * @version 0.10.0
  */
 
 class SocialMediaLinkConverterfork {
