@@ -2,15 +2,14 @@
  * @name SocialMediaLinkConverterfork
  * @forked from RoyRiv3r/SocialMediaLinkConverter.plugin.js
  * @author SakurajimaMai-1202
- * @description Changes Twitter, TikTok, Bsky, Threads, Reddit and Instagram pixiv links to their respective modified formats for proper embedding when shared on Discord.
- * @donate https://ko-fi.com/royriver
+ * @description Changes Twitter, TikTok, Bsky, Threads, Reddit ,twitch and Instagram pixiv links to their respective modified formats for proper embedding when shared on Discord.
  * @source https://github.com/SakurajimaMai-1202/SocialMediaLinkConverter.plugin.js
  * @updateURL  https://raw.githubusercontent.com/SakurajimaMai-1202/SocialMediaLinkConverter.plugin.js/main/SocialMediaLinkConverter.plugin.js
- * @version 0.0.9
+ * @version 0.10.0
  */
 
 /**
- * @name SocialMediaLinkConverter
+ * @name SocialMediaLinkConverterfork
  * @author SakurajimaMai-1202
  * @description Changes Twitter, TikTok, Bsky, Threads, Reddit and Instagram pixiv links to their respective modified formats for proper embedding when shared on Discord.
  * @donate https://ko-fi.com/royriver
@@ -29,6 +28,7 @@ class SocialMediaLinkConverter {
       convertThreads: true,
       convertReddit: true,
       convertPixiv: true,
+      converttwitch: true,
     };
 
     this.conversionRules = [
@@ -45,7 +45,7 @@ class SocialMediaLinkConverter {
       {
         id: "convertInstagram",
         regex: /https:\/\/www\.instagram\.com\//g,
-        replacement: "https://www.ddinstagram.com/",
+        replacement: "https://www.instagramez.com/",
       },
       {
         id: "convertBsky",
@@ -77,6 +77,11 @@ class SocialMediaLinkConverter {
       regex: /https:\/\/vm\.tiktok\.com\//g,
       replacement: "https://vm.tnktok.com/",
      },
+      {
+        id: 'Twitch',
+        regex: /https?:\/\/(?:clips\.twitch\.tv|(?:www\.)?twitch\.tv\/\w+\/clip)\//g,
+         replacement: 'https://clips.fxtwitch.tv/',
+      },
 
     ];
 
@@ -202,4 +207,4 @@ class SocialMediaLinkConverter {
   }
 }
 
-module.exports = SocialMediaLinkConverter;
+module.exports = SocialMediaLinkConverterfork;
